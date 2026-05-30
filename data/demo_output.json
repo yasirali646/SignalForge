@@ -1,0 +1,60 @@
+{
+  "competitors": [
+    {
+      "id": 1,
+      "name": "Bright Data",
+      "domain": "brightdata.com",
+      "created_at": "2026-05-25T05:58:52"
+    },
+    {
+      "id": 2,
+      "name": "Oxylabs",
+      "domain": "oxylabs.io",
+      "created_at": "2026-05-25T05:58:52"
+    },
+    {
+      "id": 3,
+      "name": "Zyte",
+      "domain": "zyte.com",
+      "created_at": "2026-05-25T05:58:52"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "competitor_id": 1,
+      "competitor_name": "Bright Data",
+      "source_id": 1,
+      "event_type": "pricing_change",
+      "severity": "high",
+      "title": "Competitor pricing page changed",
+      "diff_summary": "New price points: $349, $79; Removed price points: $299, $99",
+      "evidence_url": "https://brightdata.com/pricing",
+      "before_snapshot_id": 1,
+      "after_snapshot_id": 13,
+      "detected_at": "2026-05-25T05:59:40"
+    }
+  ],
+  "brief": {
+    "generated_at": "2026-05-25T05:59:40.644167Z",
+    "event_count": 1,
+    "high_severity_count": 1,
+    "events": [
+      {
+        "id": 1,
+        "competitor_id": 1,
+        "competitor_name": "Bright Data",
+        "source_id": 1,
+        "event_type": "pricing_change",
+        "severity": "high",
+        "title": "Competitor pricing page changed",
+        "diff_summary": "New price points: $349, $79; Removed price points: $299, $99",
+        "evidence_url": "https://brightdata.com/pricing",
+        "before_snapshot_id": 1,
+        "after_snapshot_id": 13,
+        "detected_at": "2026-05-25T05:59:40"
+      }
+    ],
+    "summary": "Daily SignalForge brief: 1 recent signals, 1 high severity."
+  }
+}

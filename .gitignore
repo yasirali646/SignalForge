@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/*.db
+data/runtime_settings.json
+.DS_Store
+.fastapicloud/

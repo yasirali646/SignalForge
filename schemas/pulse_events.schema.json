@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://signalforge.local/schemas/event.json",
+  "title": "SignalForge Change Event",
+  "type": "object",
+  "required": [
+    "event_type",
+    "severity",
+    "title",
+    "diff_summary",
+    "evidence_url",
+    "detected_at"
+  ],
+  "properties": {
+    "id": { "type": "integer" },
+    "competitor_id": { "type": "integer" },
+    "source_id": { "type": ["integer", "null"] },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "pricing_change",
+        "messaging_change",
+        "hiring_change",
+        "news_signal"
+      ]
+    },
+    "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+    "title": { "type": "string", "maxLength": 512 },
+    "diff_summary": { "type": "string" },
+    "evidence_url": { "type": "string", "format": "uri" },
+    "before_snapshot_id": { "type": ["integer", "null"] },
+    "after_snapshot_id": { "type": ["integer", "null"] },
+    "detected_at": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}
