@@ -224,7 +224,6 @@ See [`.env.example`](./.env.example) for the full list. Key values:
 
 | Role | Username | Password | Notes |
 |------|----------|----------|-------|
-| Admin | `admin` | `signalforge` | Full access |
 | Demo | `demo` | `demo` | Read-only competitors; **5** Forge Scout requests |
 
 > Change credentials before any public deployment.
