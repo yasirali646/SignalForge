@@ -1,6 +1,6 @@
 <div align="center">
 
-![SignalForge cover](./docs/cover.svg)
+![SignalForge cover](./docs/signalforge-cover-16x9.png)
 
 # SignalForge
 
@@ -130,7 +130,7 @@ flowchart LR
 .
 ├── app/                 # FastAPI backend (API, collectors, agents, scheduler)
 ├── frontend/            # React + Vite dashboard
-├── docs/                # README assets (cover image)
+├── docs/                # README cover (signalforge-cover-16x9.png)
 ├── schemas/             # pulse_events JSON schema
 ├── data/                # SQLite (local) + runtime settings
 ├── fixtures/            # Demo HTML for simulate-change
